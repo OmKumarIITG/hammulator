@@ -1,0 +1,131 @@
+file /home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/gem5/site_scons/gem5_scons/configure.py,line 171:
+	Configure(confdir = /home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/build/X86/gem5.build/scons_config)
+scons: Configure: Checking for linker -Wl,--as-needed support... 
+/home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/build/X86/gem5.build/scons_config/conftest_da935ab7a2c376c10f2ce1130ab88c51_0.cc <-
+  |int main(int, char *[]) { return 0; }
+(B[m [     CXX] [33mX86/gem5.build/scons_config/conftest_da935ab7a2c376c10f2ce1130ab88c51_0[33m[1m.cc[34m[1m -> [33m[1m.o(B[m
+(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1mX86/gem5.build/scons_config/conftest_da935ab7a2c376c10f2ce1130ab88c51_0_a99c4d31ee340b3b628d4db8961d3f04(B[m
+scons: Configure: yes
+
+
+file /home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/gem5/site_scons/gem5_scons/configure.py,line 171:
+	Configure(confdir = /home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/build/X86/gem5.build/scons_config)
+scons: Configure: Checking for compiler -Wno-free-nonheap-object support... 
+/home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/build/X86/gem5.build/scons_config/conftest_342d5457cbf4639ef3e0d4fb7b8ef89b_0.cc <-
+  |// CheckCxxFlag DO NOTHING
+(B[m [     CXX] [33mX86/gem5.build/scons_config/conftest_342d5457cbf4639ef3e0d4fb7b8ef89b_0[33m[1m.cc[34m[1m -> [33m[1m_19b9833df9197c1c1d39dac0d0dd9324.o(B[m
+scons: Configure: yes
+
+
+file /home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/gem5/site_scons/gem5_scons/configure.py,line 171:
+	Configure(confdir = /home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/build/X86/gem5.build/scons_config)
+scons: Configure: Checking for compiler -gz support... 
+/home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/build/X86/gem5.build/scons_config/conftest_342d5457cbf4639ef3e0d4fb7b8ef89b_1.cc <-
+  |// CheckCxxFlag DO NOTHING
+(B[m [     CXX] [33mX86/gem5.build/scons_config/conftest_342d5457cbf4639ef3e0d4fb7b8ef89b_1[33m[1m.cc[34m[1m -> [33m[1m_37c5edba69f9971b2b797d4dee13ec62.o(B[m
+scons: Configure: yes
+
+scons: Configure: Checking for linker -gz support... 
+/home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/build/X86/gem5.build/scons_config/conftest_da935ab7a2c376c10f2ce1130ab88c51_1.cc <-
+  |int main(int, char *[]) { return 0; }
+(B[m [     CXX] [33mX86/gem5.build/scons_config/conftest_da935ab7a2c376c10f2ce1130ab88c51_1[33m[1m.cc[34m[1m -> [33m[1m.o(B[m
+(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1mX86/gem5.build/scons_config/conftest_da935ab7a2c376c10f2ce1130ab88c51_1_edda7043ff88127f435c07331c1a1350(B[m
+scons: Configure: yes
+
+
+file /home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/gem5/site_scons/gem5_scons/configure.py,line 171:
+	Configure(confdir = /home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/build/X86/gem5.build/scons_config)
+
+file /home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/gem5/site_scons/gem5_scons/configure.py,line 171:
+	Configure(confdir = /home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/build/X86/gem5.build/scons_config)
+scons: Configure: Checking for C header file Python.h... 
+/home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/build/X86/gem5.build/scons_config/conftest_6f79fff2b5fa95157216534d203df494_0.c <-
+  |
+  |#include <Python.h>
+  |
+  |
+(B[m [      CC] [33mX86/gem5.build/scons_config/conftest_6f79fff2b5fa95157216534d203df494_0[33m[1m.c[34m[1m -> [33m[1m_8c2d4efd07171fff31d2de142d498db6.o(B[m
+scons: Configure: yes
+
+scons: Configure: Checking Python version... 
+/home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/build/X86/gem5.build/scons_config/conftest_2176b2d932a60acfa5b4079f6e5ab92b_0.cc <-
+  |
+  |#include <pybind11/embed.h>
+  |
+  |int
+  |main(int argc, char **argv) {
+  |    pybind11::scoped_interpreter guard{};
+  |    pybind11::exec(
+  |        "import sys\n"
+  |        "vi = sys.version_info\n"
+  |        "sys.stdout.write('%i.%i.%i' % (vi.major, vi.minor, vi.micro));\n");
+  |    return 0;
+  |}
+  |    
+(B[m [     CXX] [33mX86/gem5.build/scons_config/conftest_2176b2d932a60acfa5b4079f6e5ab92b_0[33m[1m.cc[34m[1m -> [33m[1m.o(B[m
+In file included from ext/pybind11/include/pybind11/cast.h:16,
+                 from ext/pybind11/include/pybind11/attr.h:13,
+                 from ext/pybind11/include/pybind11/pybind11.h:13,
+                 from ext/pybind11/include/pybind11/embed.h:12,
+                 from /home/neuromorphic/Documents/BTP/Hammulator/hammulator/hammulator/build/X86/gem5.build/scons_config/conftest_2176b2d932a60acfa5b4079f6e5ab92b_0.cc:2:
+ext/pybind11/include/pybind11/detail/type_caster_base.h: In function ‘std::string pybind11::detail::error_string()’:
+ext/pybind11/include/pybind11/detail/type_caster_base.h:482:26: error: invalid use of incomplete type ‘PyFrameObject’ {aka ‘struct _frame’}
+  482 |             frame = frame->f_back;
+      |                          ^~
+In file included from /usr/include/python3.12/Python.h:42,
+                 from ext/pybind11/include/pybind11/detail/common.h:186,
+                 from ext/pybind11/include/pybind11/pytypes.h:12,
+                 from ext/pybind11/include/pybind11/cast.h:13:
+/usr/include/python3.12/pytypedefs.h:22:16: note: forward declaration of ‘PyFrameObject’ {aka ‘struct _frame’}
+   22 | typedef struct _frame PyFrameObject;
+      |                ^~~~~~
+In file included from /usr/include/python3.12/Python.h:35:
+ext/pybind11/include/pybind11/pybind11.h: In function ‘pybind11::function pybind11::detail::get_type_override(const void*, const type_info*, const char*)’:
+ext/pybind11/include/pybind11/pybind11.h:2348:54: error: ‘PyCodeObject’ {aka ‘struct PyCodeObject’} has no member named ‘co_varnames’; did you mean ‘co_names’?
+ 2348 |                     locals, PyTuple_GET_ITEM(f_code->co_varnames, 0)
+      |                                                      ^~~~~~~~~~~
+/usr/include/python3.12/tupleobject.h:27:18: note: in expansion of macro ‘PyType_FastSubclass’
+   27 |                  PyType_FastSubclass(Py_TYPE(op), Py_TPFLAGS_TUPLE_SUBCLASS)
+      |                  ^~~~~~~~~~~~~~~~~~~
+/usr/include/python3.12/object.h:194:28: note: in expansion of macro ‘_Py_CAST’
+  194 | #define _PyObject_CAST(op) _Py_CAST(PyObject*, (op))
+      |                            ^~~~~~~~
+/usr/include/python3.12/object.h:223:31: note: in expansion of macro ‘_PyObject_CAST’
+  223 | #  define Py_TYPE(ob) Py_TYPE(_PyObject_CAST(ob))
+      |                               ^~~~~~~~~~~~~~
+/usr/include/python3.12/tupleobject.h:27:38: note: in expansion of macro ‘Py_TYPE’
+   27 |                  PyType_FastSubclass(Py_TYPE(op), Py_TPFLAGS_TUPLE_SUBCLASS)
+      |                                      ^~~~~~~
+/usr/include/python3.12/cpython/tupleobject.h:18:13: note: in expansion of macro ‘PyTuple_Check’
+   18 |     (assert(PyTuple_Check(op)), _Py_CAST(PyTupleObject*, (op)))
+      |             ^~~~~~~~~~~~~
+/usr/include/python3.12/cpython/tupleobject.h:28:38: note: in expansion of macro ‘_PyTuple_CAST’
+   28 | #define PyTuple_GET_ITEM(op, index) (_PyTuple_CAST(op)->ob_item[(index)])
+      |                                      ^~~~~~~~~~~~~
+ext/pybind11/include/pybind11/pybind11.h:2348:29: note: in expansion of macro ‘PyTuple_GET_ITEM’
+ 2348 |                     locals, PyTuple_GET_ITEM(f_code->co_varnames, 0)
+      |                             ^~~~~~~~~~~~~~~~
+In file included from /usr/include/python3.12/Python.h:38:
+ext/pybind11/include/pybind11/pybind11.h:2348:54: error: ‘PyCodeObject’ {aka ‘struct PyCodeObject’} has no member named ‘co_varnames’; did you mean ‘co_names’?
+ 2348 |                     locals, PyTuple_GET_ITEM(f_code->co_varnames, 0)
+      |                                                      ^~~~~~~~~~~
+/usr/include/python3.12/pyport.h:24:38: note: in definition of macro ‘_Py_CAST’
+   24 | #define _Py_CAST(type, expr) ((type)(expr))
+      |                                      ^~~~
+/usr/include/python3.12/cpython/tupleobject.h:28:38: note: in expansion of macro ‘_PyTuple_CAST’
+   28 | #define PyTuple_GET_ITEM(op, index) (_PyTuple_CAST(op)->ob_item[(index)])
+      |                                      ^~~~~~~~~~~~~
+ext/pybind11/include/pybind11/pybind11.h:2348:29: note: in expansion of macro ‘PyTuple_GET_ITEM’
+ 2348 |                     locals, PyTuple_GET_ITEM(f_code->co_varnames, 0)
+      |                             ^~~~~~~~~~~~~~~~
+ext/pybind11/include/pybind11/embed.h: In function ‘void pybind11::detail::set_interpreter_argv(int, const char* const*, bool)’:
+ext/pybind11/include/pybind11/embed.h:155:20: warning: ‘void PySys_SetArgvEx(int, wchar_t**, int)’ is deprecated [-Wdeprecated-declarations]
+  155 |     PySys_SetArgvEx(argc, pysys_argv, static_cast<int>(add_program_dir_to_path));
+      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/python3.12/Python.h:96:
+/usr/include/python3.12/sysmodule.h:14:38: note: declared here
+   14 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) PySys_SetArgvEx(int, wchar_t **, int);
+      |                                      ^~~~~~~~~~~~~~~
+scons: Configure: no
+
+
