@@ -1,4 +1,4 @@
-gem5
+
 *.lua
-build
+
 m5out*
